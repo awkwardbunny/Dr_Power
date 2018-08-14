@@ -26,12 +26,9 @@ def open_log(fn):
     log = None
     try:
         print('Opening log file {}'.format(fn))
-        log = open(fn, 'w+')
-    except IOError:
-        print('Creating log file {}'.format(fn))
-        log = open(fn, 'w+')
+        log = open(fn, 'a+')
         #log.write("time:sensor_id:voltage:current:avg_power\n")
-        log.flush()
+        #log.flush()
     return log
     
 def fetch_packet(ser):
