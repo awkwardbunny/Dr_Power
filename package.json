@@ -1,0 +1,22 @@
+{
+  "name": "dr_power",
+  "version": "1.0.0",
+  "description": "Power Data Reporter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awkwardbunny/Dr_Power.git"
+  },
+  "author": "Brian Hong",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/awkwardbunny/Dr_Power/issues"
+  },
+  "homepage": "https://github.com/awkwardbunny/Dr_Power#readme",
+  "dependencies": {
+    "chart.js": "^2.7.2"
+  }
+}
